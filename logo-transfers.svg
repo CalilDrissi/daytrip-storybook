@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" role="img" aria-label="Transfers.ma">
+
+  <!-- Swoosh arc -->
+  <path d="M 530,168 C 575,118 568,48 418,62" fill="none" stroke="#FF7528" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Airplane body -->
+  <g transform="translate(396,64) rotate(-38)">
+    <!-- Fuselage -->
+    <ellipse cx="44" cy="0" rx="48" ry="7" fill="#FF7528"/>
+    <!-- Main wings -->
+    <polygon points="28,-7 36,-34 56,-10" fill="#FF7528"/>
+    <polygon points="28,7 36,34 56,10" fill="#FF7528"/>
+    <!-- Tail fins -->
+    <polygon points="4,-5 3,-18 16,-6" fill="#FF7528"/>
+    <polygon points="4,5 3,18 16,6" fill="#FF7528"/>
+    <!-- Nose cone -->
+    <ellipse cx="92" cy="0" rx="6" ry="5" fill="#FF7528"/>
+    <!-- Engine pods -->
+    <ellipse cx="48" cy="-12" rx="10" ry="4" fill="#FF7528"/>
+    <ellipse cx="48" cy="12" rx="10" ry="4" fill="#FF7528"/>
+  </g>
+
+  <!-- "Transfers" in brand orange, bold italic -->
+  <text
+    x="4" y="148"
+    font-family="'Arial Black', 'Arial Bold', Impact, Arial, sans-serif"
+    font-style="italic"
+    font-weight="900"
+    font-size="126"
+    fill="#FF7528"
+    letter-spacing="-2">Transfers</text>
+
+  <!-- ".ma" in brand navy -->
+  <text
+    x="368" y="148"
+    font-family="'Arial Black', 'Arial Bold', Impact, Arial, sans-serif"
+    font-style="italic"
+    font-weight="900"
+    font-size="126"
+    fill="#09428F"
+    letter-spacing="-2">.ma</text>
+
+</svg>
