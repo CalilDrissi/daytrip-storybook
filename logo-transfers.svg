@@ -1,47 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 165" role="img" aria-label="Transfers.ma">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" role="img" aria-label="Transfers.ma">
 
-  <!-- "Transfers" in brand orange -->
+  <!-- Swoosh arc -->
+  <path d="M 530,168 C 575,118 568,48 418,62" fill="none" stroke="#FF7528" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Airplane body -->
+  <g transform="translate(396,64) rotate(-38)">
+    <!-- Fuselage -->
+    <ellipse cx="44" cy="0" rx="48" ry="7" fill="#FF7528"/>
+    <!-- Main wings -->
+    <polygon points="28,-7 36,-34 56,-10" fill="#FF7528"/>
+    <polygon points="28,7 36,34 56,10" fill="#FF7528"/>
+    <!-- Tail fins -->
+    <polygon points="4,-5 3,-18 16,-6" fill="#FF7528"/>
+    <polygon points="4,5 3,18 16,6" fill="#FF7528"/>
+    <!-- Nose cone -->
+    <ellipse cx="92" cy="0" rx="6" ry="5" fill="#FF7528"/>
+    <!-- Engine pods -->
+    <ellipse cx="48" cy="-12" rx="10" ry="4" fill="#FF7528"/>
+    <ellipse cx="48" cy="12" rx="10" ry="4" fill="#FF7528"/>
+  </g>
+
+  <!-- "Transfers" in brand orange, bold italic -->
   <text
-    x="2" y="132"
-    font-family="'Arial Black', 'Arial Bold', Arial, sans-serif"
+    x="4" y="148"
+    font-family="'Arial Black', 'Arial Bold', Impact, Arial, sans-serif"
     font-style="italic"
     font-weight="900"
-    font-size="120"
-    fill="#F47920"
-    textLength="352"
-    lengthAdjust="spacingAndGlyphs">Transfers</text>
+    font-size="126"
+    fill="#FF7528"
+    letter-spacing="-2">Transfers</text>
 
   <!-- ".ma" in brand navy -->
   <text
-    x="355" y="132"
-    font-family="'Arial Black', 'Arial Bold', Arial, sans-serif"
+    x="368" y="148"
+    font-family="'Arial Black', 'Arial Bold', Impact, Arial, sans-serif"
     font-style="italic"
     font-weight="900"
-    font-size="120"
-    fill="#1B3680"
-    textLength="152"
-    lengthAdjust="spacingAndGlyphs">.ma</text>
-
-  <!-- Swoosh arc from lower-right curving up to airplane -->
-  <path
-    d="M 505,158 C 545,112 540,54 408,66"
-    fill="none"
-    stroke="#F47920"
-    stroke-width="3.5"
-    stroke-linecap="round"/>
-
-  <!-- Airplane silhouette — drawn nose-right at origin, rotated -36deg, positioned upper-right -->
-  <g transform="translate(388, 70) rotate(-36)">
-    <!-- Fuselage -->
-    <path fill="#F47920" d="M 88,0 C 80,-5 50,-6 15,-4 L 0,0 L 15,4 C 50,6 80,5 88,0 Z"/>
-    <!-- Right wing (upper after rotation) -->
-    <path fill="#F47920" d="M 40,-4 L 46,-28 L 59,-8 Z"/>
-    <!-- Left wing (lower after rotation) -->
-    <path fill="#F47920" d="M 40,4 L 46,28 L 59,8 Z"/>
-    <!-- Right tail fin -->
-    <path fill="#F47920" d="M 8,-2 L 7,-13 L 18,-4 Z"/>
-    <!-- Left tail fin -->
-    <path fill="#F47920" d="M 8,2 L 7,13 L 18,4 Z"/>
-  </g>
+    font-size="126"
+    fill="#09428F"
+    letter-spacing="-2">.ma</text>
 
 </svg>
