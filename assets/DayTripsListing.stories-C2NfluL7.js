@@ -1,0 +1,5 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t}from"./iframe-Deo4tnXv.js";import{t as n}from"./jsx-runtime-Boqd0qRh.js";import{i as r,n as i,r as a,t as o}from"./SiteFooter-I8-nIMQy.js";var s,c,l,u,d,f;function p(){return(p=e((()=>{t(),r(),i(),s=n(),c={title:`Day Trips Listing`,parameters:{layout:`fullscreen`}},l=e=>(0,s.jsx)(`main`,{className:`isolation_isolate cq-t_inline-size cq-n_main`,children:e}),u={render:()=>l((0,s.jsx)(a,{}))},d={render:()=>(0,s.jsx)(o,{})},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  render: () => wrap(<SiteNavbar />)
+}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  render: () => <SiteFooter />
+}`,...d.parameters?.docs?.source}}},f=[`NavbarStory`,`FooterStory`]})))()}p();export{d as FooterStory,u as NavbarStory,f as __namedExportsOrder,c as default};
