@@ -1,1 +1,0 @@
-import{t as e}from"./iframe-Deo4tnXv.js";e();
